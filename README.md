@@ -1,5 +1,4 @@
 # FLEXBOX-2
-# Exercícios de CSS - Flexbox
 
 Este repositório contém uma série de exercícios práticos do modelo de layout Flexbox no CSS. Através de exemplos e desafios, você poderá explorar como usar as diversas propriedades do Flexbox para criar layouts flexíveis e responsivos.
 
