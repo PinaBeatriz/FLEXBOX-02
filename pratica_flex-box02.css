@@ -1,0 +1,104 @@
+
+
+/* Define o estilo dos itens flexíveis */
+.flex-item { 
+    width: 100px; /* Define a largura do item como 100px */
+    height: 100px; /* Define a altura do item como 100px */
+    border-radius: 4px; /* Adiciona bordas arredondadas de 4px */
+    display: flex; /* Transforma o item em um contêiner flexível */
+    align-items: center; /* Alinha o conteúdo interno no centro verticalmente */
+}
+
+/* Estiliza a classe base para servir como fundo dos itens */
+.base {
+    margin-bottom: 15px; /* Adiciona uma margem inferior de 15px */
+    background-color: #d0d3d4; /* Define a cor de fundo como um tom de cinza */
+    border-radius: 4px; /* Adiciona bordas arredondadas de 4px */
+}
+
+/* Define cores de fundo diferentes para cada caixa */
+.box1 {
+    background-color: #63b1bc; /* Azul claro */
+}
+
+.box2 {
+    background-color: #1f2a44; /* Azul escuro */
+}
+
+.box3 {
+    background-color: #ed145b; /* Vermelho */
+}
+
+.box4 {
+    background-color: #efb661; /* Amarelo */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    width: fit-content; /* Define a largura apenas o suficiente para o conteúdo */
+    margin: auto; /* Centraliza o título horizontalmente */
+}
+
+/* Contêiner 1: Itens flexíveis alinhados no início horizontalmente */
+.container1 {
+    display: flex; /* Define um contêiner flexível */
+    align-items: start; /* Alinha os itens ao topo */
+    flex-direction: row; /* Mantém os itens na horizontal */
+    justify-content: start; /* Alinha os itens à esquerda */
+}
+
+/* Contêiner 2: Itens alinhados no final da linha */
+.container2 {
+    display: flex; /* Define um contêiner flexível */
+    align-items: flex-end; /* Alinha os itens na parte inferior */
+    flex-direction: row; /* Mantém os itens na horizontal */
+    justify-content: flex-end; /* Alinha os itens à direita */
+}
+
+/* Contêiner 3: Itens centralizados */
+.container3 {
+    display: flex; /* Define um contêiner flexível */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    flex-direction: row; /* Mantém os itens na horizontal */
+    justify-content: center; /* Centraliza os itens na linha */
+}
+
+/* Contêiner 4: Espaço máximo entre os itens */
+.container4 {
+    display: flex; /* Define um contêiner flexível */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    flex-direction: row; /* Mantém os itens na horizontal */
+    justify-content: space-between; /* Distribui os itens, deixando um espaço máximo entre eles */
+}
+
+/* Contêiner 5: Espaço distribuído igualmente ao redor dos itens */
+.container5 {
+    display: flex; /* Define um contêiner flexível */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    flex-direction: row; /* Mantém os itens na horizontal */
+    justify-content: space-around; /* Distribui os itens com espaços iguais ao redor */
+}
+
+/* Contêiner 6: Alinhamento vertical (coluna), itens no topo */
+.container6 {
+    display: flex; /* Define o container como um flexbox para facilitar o alinhamento dos itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro do container */
+    flex-direction: row; /* Organiza os itens na direção horizontal (linha) */
+    justify-content: space-evenly; /* Distribui os itens igualmente dentro do container, garantindo espaços iguais entre eles */
+}}
+
+/* Contêiner exercício B: Mesmo comportamento do container-6 */
+.container-exercicioB {
+    display: flex; /* Define um contêiner flexível */
+    align-items: start; /* Alinha os itens ao topo */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: start; /* Alinha os itens no topo da coluna */
+}
+
+/* Contêiner desafio: Itens alinhados no início da linha */
+.container-desafio {
+    display: flex; /* Define um contêiner flexível */
+    align-items: start; /* Alinha os itens ao topo */
+    flex-direction: row-reverse; /* Mantém os itens na horizontal */
+    justify-content: start; /* Alinha os itens à esquerda */
+}
